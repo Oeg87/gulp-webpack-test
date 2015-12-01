@@ -53,7 +53,7 @@
 /* 3 */
 /***/ function(module, exports) {
 
-	console.log('test.js');
+	module.exports = "It works from test.js.";
 
 /***/ }
 /******/ ]);

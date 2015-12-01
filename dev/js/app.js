@@ -1,1 +1,1 @@
-console.log('App file');
+module.exports = "It works from APP.JS";

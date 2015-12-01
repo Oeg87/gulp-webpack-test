@@ -48,12 +48,24 @@
 
 
 /***/ },
-/* 1 */,
-/* 2 */
+/* 1 */
 /***/ function(module, exports) {
 
-	alert('Hello word');
-	console.log('ciao');
+	module.exports = "It works from APP.JS";
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!style!css!./css/main.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	document.write(__webpack_require__(3));
+	document.write(__webpack_require__(1));
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	module.exports = "It works from test.js.";
 
 /***/ }
 /******/ ]);

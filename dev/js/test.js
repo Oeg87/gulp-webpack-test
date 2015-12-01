@@ -1,1 +1,1 @@
-console.log('test.js');
+module.exports = "It works from test.js.";

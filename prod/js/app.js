@@ -51,7 +51,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	console.log('App file');
+	module.exports = "It works from APP.JS";
 
 /***/ }
 /******/ ]);
